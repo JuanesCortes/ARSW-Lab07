@@ -2,6 +2,8 @@
 ### Arquitecturas de Software - ARSW
 ### Laboratorio - Broker de Mensajes STOMP con WebSockets + HTML5 Canvas.
 
+### Juan Esteban Cortes Perez
+### Andres Felipe Martinez Velasquez 
 
 
 - Conectarse con un botón

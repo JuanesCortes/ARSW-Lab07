@@ -52,7 +52,7 @@ var app = (function () {
             connectAndSubscribe(dibujo);
             can.addEventListener("pointerdown", (event) => {
                 var npoint = getMousePosition(event);
-                stompClient.send("/topic/newpoint."+dibujo, {}, JSON.stringify(npoint));
+                stompClient.send("/app/newpoint."+dibujo, {}, JSON.stringify(npoint));
             })
         },
 
